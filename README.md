@@ -30,7 +30,7 @@ mkdir -p ~/MC
 cd ~/MC
 
 # clone this repo
-git clone https://github.com/aquaface/mac-lwjgl-fix.git
+git clone https://github.com/Poleward/mac-lwjgl-fix.git
 ```
 
 ### Configure Prism Launcher/MultiMC
