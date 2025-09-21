@@ -4,7 +4,7 @@ NOTE: for anyone using an Apple Silicon Mac who just wants native performance an
 
 When moving to version 1.13, Minecraft updated from LWJGL 2 to LWJGL 3. Unfortunately for macOS players, this introduced a wide variety of bugs that specifically happened on Macs. Despite the long time since 1.13, several of these bugs have persisted in newer versions of Minecraft.
 
-This repo contains a wrapper script to be used with [Prism Launcher](https://prismlauncher.org/) or [MultiMC](https://multimc.org/) that will configure any instance to use altered LWJGL files that fix several bugs on macOS. These include the inability to immediately move your mouse after opening your inventory ([MC-134546](https://bugs.mojang.com/browse/MC-134546)), the inability to scroll through your hotbar while holding shift ([MC-121772](https://bugs.mojang.com/browse/MC-121772)), the player's camera sometimes snapping after exiting the inventory ([MC-248737](https://bugs.mojang.com/browse/MC-248737)), and more. (Note: this fork and its fixes only work for versions 1.14.4 and up.)
+This repo contains a wrapper script to be used with [Prism Launcher](https://prismlauncher.org/) or [MultiMC](https://multimc.org/) that will configure any instance to use altered LWJGL files that fix several bugs on macOS. These include the inability to immediately move your mouse after opening your inventory ([MC-134546](https://bugs.mojang.com/browse/MC-134546)), the inability to scroll through your hotbar while holding shift ([MC-121772](https://bugs.mojang.com/browse/MC-121772)), the player's camera sometimes snapping after exiting the inventory ([MC-248737](https://bugs.mojang.com/browse/MC-248737)), and more. (Note: this fork and its fixes only work for versions 1.14.4 - 1.20.4)
 
 ## Setup and Usage
 
